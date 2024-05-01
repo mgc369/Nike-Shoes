@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#content {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#smprod {
+    display: none;
+}
+
+#content:hover, #smprod:hover {
+    cursor: pointer;
+}
+
+#smprod img {
+    width: 50px;
+    height: 50px;
+}
+
+.bstslr {
+    color: red;
+}
+
+.gtxt {
+    color: gray;
+}
+
+#smtxt {
+    line-height: 1.7em;
+}
+
+#smprod, #smtxt {
+    margin-top: 20px;
+}
